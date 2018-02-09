@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+
+html{ 
+    background-color: rebeccapurple;    
+}
+
+nav, footer{
+    height: 60px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    line-height: 60px;
+}
+
+nav{
+    text-align: right;
+    line-height: 60px;
+    box-sizing: border-box;
+    padding-right: 8px;
+}
+
+a{
+    color: rebeccapurple;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    font-size: 30px;
+    color: aqua;
+}
+
+a:active{
+    font-size: 36px;
+}
+
+.wrapper{
+    height: 100%;
+}
